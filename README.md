@@ -28,7 +28,7 @@ Once you setup security group and route 53 then you can clone this repository & 
 Note : Required qualified domain name (FQDN) setup in route 53 and your email adderess for signed SSL cirtificate.
 
 ```
-	wget -qO- https://ubuntu.bigbluebutton.org/bbb-install.sh | bash -s -- -v xenial-22 -s bbb.example.com -e info@example.com
+wget -qO- https://ubuntu.bigbluebutton.org/bbb-install.sh | bash -s -- -v xenial-22 -s bbb.example.com -e info@example.com
 
 ```
 
@@ -36,7 +36,6 @@ This will take few min to complete, After completion you can run following comma
 
 ```
 sudo bbb-conf --secret
-
 ```
 Note: This setup is for production level and does not contains demo JSP demo APIs.
 
